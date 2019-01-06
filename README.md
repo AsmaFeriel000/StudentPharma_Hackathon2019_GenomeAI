@@ -3,11 +3,11 @@ Pharmhackathon2018, 2nd Place Finish
 
 This project was completed coded in Java as a submission for Pharmhackathon 2018. The time frame for creation was from 11am-8pm on 17-11-2018
 
-Function
+**Function
 
 The project is fully made in Java, it accepts a .FASTA file, and scans the genome for mutated base pairs. Using several calculations, a probability of the mutation leading to cancer is presented in a generated JTable
 
-Full Description
+**Full Description
 
 GenomeAI "Health Is Wealth"
 
@@ -19,7 +19,7 @@ Simply upload a FASTA file with an oncogenic sequence, normal sequences and pate
 
 Of course, neural networks, chaos theory, lossless compression, machine learning and intelligent AI are implemented to run our algorithms.
 
-How does this get accomplished?
+**How does this get accomplished?
 
 Every sequence is determined to be either an oncogenic sequence, patented sequence, or normal sequence based on keywords in the header
 Every sequence is shortened to just to codons of interest (ie between start and stop codons)
@@ -27,3 +27,7 @@ Every codon of oncogenic sequence is compared to each codon of normal sequences.
 Each potential mutation (codon) of interest from oncogenic sequence is compared to that codon of the patented sequence.
 If a mutation in oncogenic sequence never occurs in patented sequence.. it is assigned a higher danger score than if an oncogenic mutation appears in multiple places
 Top 5 codon mutations are shown to user in a GUI.
+
+**Team Members:
+
+Asma Feriel Khoualdi , Ajay Patel, Aaron Sossin, Samuel Rahman, Camila Etchart, Simon Rahman
